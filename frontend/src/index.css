@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    section{
+        @apply py-[75px];
+    }
+}
+
+@layer components{
+    .container{
+        @apply max-w-full w-[1440px] px-5 mx-auto py-[5] mt-[-75px];
+    }
+
+    .btn{
+        @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
+    }
+
+    .heading{
+        @apply text-[44px] leading-[54px] font-[700] text-headingColor;
+    }
+
+    .text_param{
+        @apply text-[16px] leading-[30px] font-[400] text-textColor;
+    }
+
+    .header{
+        @apply bg-[url("./assets/images/mask.png")] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px];
+    }
+
+    .hero_section{
+       @apply bg-[url("./assets/images/hero-bg.png")] bg-no-repeat bg-center bg-cover;
+    }
+
+    
+    .icon img{
+        @apply flex items-center justify-center w-[100px] h-[100px] max-w-[auto] max-h-[auto] object-contain ml-[217px];
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        @apply w-full;
+    }
+
+    section{
+        @apply py-[35px];
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .heading{
+        @apply text-[25px] leading-[38px];
+    }
+
+    .text_param{
+        @apply text-[20px] leading-7 mt-3;
+    }
+}
