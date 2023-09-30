@@ -55,7 +55,7 @@ const Header = () => {
             <div className="flex items-center justify-between">
                 {/* ======== logo ========= */}
                 <div>
-                <img src={ logo } className="flex items-center w-100% h-auto max-h-[15rem] max-w-[17rem] m-[-40px] -mt-12 py-2 px-7 pt-10 -mb-3.5" alt="logo"/>
+                <img src={ logo } className="flex w-100% h-auto max-h-[15rem] max-w-[17rem] m-[-40px] -mt-12 py-2 px-7 pt-10 -mb-3.5" alt="logo"/>
                 </div>
 
                 {/* =========== menu ========= */}
@@ -90,11 +90,11 @@ const Header = () => {
             
                 <Link to ="/login">
                    <button className="bg-primaryColor py-2 px-6 text-white font-[600] h-[40px] flex items-center
-                   justify-centre rounded-[40px] hover: ">Login</button>
+                   justify-centre rounded-[40px] hover:bg-green-900 mr-[5rem]">Login</button>
                 </Link>
 
                 <span className="pt-[12.5px] md:hidden" onClick={toggleMenu}>
-                    <BiMenu className="w-10px h-10px cursor-pointer"></BiMenu>
+                    <BiMenu className="w-10px h-10px mr-[rem] cursor-pointer"></BiMenu>
                 </span>
             </div>
 

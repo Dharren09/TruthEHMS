@@ -35,7 +35,7 @@
 
     
     .icon img{
-        @apply flex items-center justify-center w-[100px] h-[100px] max-w-[auto] max-h-[auto] object-contain ml-[217px];
+        @apply flex items-center justify-center w-[100px] h-[100px] max-w-[auto] max-h-[auto] object-contain ml-14;
     }
 }
 

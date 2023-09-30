@@ -6,13 +6,13 @@ export const services = [
       textColor: "#FEB60D",
     },
     {
-      name: "Labor & Delivery",
+      name: "Gyn & Obs",
       desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
       bgColor: "rgba(151, 113, 255, .2)",
       textColor: "#9771FF",
     },
     {
-      name: "Heart & Vascular",
+      name: "Cardiology",
       desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
       bgColor: "rgba(1, 181, 197, .2)",
       textColor: "#01B5C5",
@@ -31,6 +31,24 @@ export const services = [
     },
     {
       name: "Burn Treatment",
+      desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
+      bgColor: "rgba(151, 113, 255, .2)",
+      textColor: "#9771FF",
+    },
+    {
+      name: "General Surgery",
+      desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
+      bgColor: "rgba(151, 113, 255, .2)",
+      textColor: "#9771FF",
+    },
+    {
+      name: "Emergency Medicine",
+      desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
+      bgColor: "rgba(151, 113, 255, .2)",
+      textColor: "#9771FF",
+    },
+    {
+      name: "Labarotory",
       desc: "World-class care for everyone. Our health System offers unmatched, expert health care. From the lab to the clinic.",
       bgColor: "rgba(151, 113, 255, .2)",
       textColor: "#9771FF",
